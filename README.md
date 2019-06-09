@@ -41,7 +41,8 @@ quarkus.http.ssl.certificate.key-store-file=ca-web.jceks
 quarkus.http.ssl.certificate.key-store-password=changeit
 ```
 Passing these to the native image:
-``` target/quarkus-ca-runner \
+```
+target/quarkus-ca-runner \
  -Dquarkus.http.ssl-port=8081 \
  -Dquarkus.http.ssl.certificate.key-store-file=ca-web.jceks \
  -Dquarkus.http.ssl.certificate.key-store-password=changeit
